@@ -92,7 +92,7 @@ def lightness(color, lightness=.94):
     return RGB(*rgb)
 
 
-_MAX_CANDLES = 10_000
+_MAX_CANDLES = 30_000
 
 
 def _maybe_resample_data(resample_rule, df, indicators, equity_data, trades):
